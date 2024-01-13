@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $(document).on('keypress', function (e) {
         if (e.which == 13) {
-            let url = `https://apinews24-f3abde7e8af7.herokuapp.com/api/news?api_key=53f1b64d-5042-47b5-b3d8-8f6da5f95cb3`
+            let url = `https://django-api24.vercel.app/api/news?api_key=django-insecure-=cldztbc4jg&xl0!x673!*v2_=p$$eu)=7*f#d0#zs$44xx-h^`
             async function myweather() {
                 let responce = await fetch(url)
                 let data = await responce.json()
